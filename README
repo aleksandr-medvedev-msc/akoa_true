@@ -8,3 +8,7 @@ This file was created by IntelliJ IDEA 12.1.1 for binding GitHub repository
 Добавлена ActionBarSherlock, теперь приложение совместимо с Android 2.1+.
 Написана первая версия многопоточного менеджера записей в базу (TODO: проверить на Race conditions, подумать об ORM)
 XML парсер теперь синглтон
+
+TODO: 
+Рефакторинг всех больших методов
+Unit-тесты.
