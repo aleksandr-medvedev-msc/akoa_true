@@ -1,1 +1,10 @@
 This file was created by IntelliJ IDEA 12.1.1 for binding GitHub repository
+
+Новая версия.
+
+Доделана вся необходимая оффлайн-функциональность
+Навигация сделана через Sliding menu
+Рисование графиков теперь сделано не через свое расширение view а через AChartEngine
+Добавлена ActionBarSherlock, теперь приложение совместимо с Android 2.1+.
+Написана первая версия многопоточного менеджера записей в базу (TODO: проверить на Race conditions, подумать об ORM)
+XML парсер теперь синглтон
