@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Table name = "Orders">
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "type" type = "text" display_name = ""></Column>
+        <Column name = "date" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Bunkering_order" >
+        <Column name = "global_id" type="integer"  display_name = ""></Column>
+        <Column name = "local_id" type="integer"  display_name = ""></Column>
+        <Column name = "name_of_ship" type = "text"  display_name = "Наименование судна"></Column>
+        <Column name = "flag_of_ship" type = "text"  display_name = "Флаг судна"></Column>
+        <Column name = "IMO_number_of_ship" type = "text"  display_name = "Номер IMO судна"></Column>
+        <Column name = "int_call_of_ship" type = "text"  display_name = "Международный позывной судна"></Column>
+        <Column name = "length_width_depth_of_ship" type = "text"  display_name = "Длина/Ширина/Осадка судна"></Column>
+        <Column name = "port_of_ship" type = "text"  display_name = "Порт приписки"></Column>
+        <Column name = "full_ship_owner_name" type = "text"  display_name = "Полное наименование судовладельца"></Column>
+        <Column name = "address_and_phone_of_ship_owner" type = "text"  display_name = "Адрес судовладельца и телефон"></Column>
+        <Column name = "full_name_of_charter" type = "text"  display_name = "Полное наименование фрахтователя"></Column>
+        <Column name = "affreightment_order" type = "text"  display_name = "Основание фрахтования судна"></Column>
+        <Column name = "address_of_charterer_and_phone" type = "text"  display_name = "Адрес фрахтователя и телефон"></Column>
+        <Column name = "name_surname_of_captain" type = "text"  display_name = "ФИО капитана судна (полностью)"></Column>
+        <Column name = "time_of_arrival_to_bunkering" type = "text"  display_name = "Время прибытия судна на бункеровку"></Column>
+        <Column name = "place_of_bunkering" type = "text"  display_name = "Место бункеровки"></Column>
+        <Column name = "name_of_fuel" type = "text"  display_name = "Наименование ГСМ"></Column>
+        <Column name = "volume_of_fuel" type = "text"  display_name = "Количество ГСМ"></Column>
+        <Column name = "ordered_price_of_fuel" type = "text"  display_name = "Согласованная цена ГСМ"></Column>
+        <Column name = "order_of_account" type = "text"  display_name = "Порядок расчетов"></Column>
+        <Column name = "country_of_destination" type = "text"  display_name = "Страна назначения"></Column>
+        <Column name = "port_of_destination" type = "text"  display_name = "Порт назначения"></Column>
+        <Column name = "contact_number" type = "text"  display_name = "Контактный телефон"></Column>
+        <Column name = "contact_email" type = "text"  display_name = "Контактный e-mail"></Column>
+        <Column name = "name_surname_of_manager_of_this_order" type = "text" display_name = "ФИО сотрудника заполнившего заявку"></Column>
+        <Column name = "number_of_answers" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Tank_order" >
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "local_id" type="integer" display_name = ""></Column>
+        <Column name = "kind_of_oil" type = "text" display_name = "Вид нефтепродукта"></Column>
+        <Column name = "contact_person" type = "text" display_name = "Контактное лицо"></Column>
+        <Column name = "contact_information" type = "text" display_name = "Контактная информация"></Column>
+        <Column name = "name_of_NPZ" type = "text" display_name = "Название НПЗ"></Column>
+        <Column name = "volume" type = "text" display_name = "Количество"></Column>
+        <Column name = "station_of_destination" type = "text" display_name = "Станция назначения"></Column>
+        <Column name = "message" type = "text" display_name = "Сообщение"></Column>
+        <Column name = "number_of_answers" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Oil_delivery_order" >
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "local_id" type="integer" display_name = ""></Column>
+        <Column name = "company" type = "text" display_name = "Предприятие"></Column>
+        <Column name = "name_of_product" type = "text" display_name = "НАИМЕНОВАНИЕ ПРОДУКЦИИ"></Column>
+        <Column name = "volume_of_delivery_tonn" type = "text" display_name = "ОБЪЕМ ПОСТАВКИ (тонн)"></Column>
+        <Column name = "your_accepted_price" type = "text" display_name = "ЦЕНА (приемлемая для Вас на дату заполнения заявки)"></Column>
+        <Column name = "station_of_destination" type = "text" display_name = "СТАНЦИЯ НАЗНАЧЕНИЯ"></Column>
+        <Column name = "other_orders" type = "text" display_name = "ДОПОЛНИТЕЛЬНЫЕ ТРЕБОВАНИЯ (форма и условия оплаты, качественные характеристики, график поставок)"></Column>
+        <Column name = "order_active_for_date" type = "text" display_name = "СРОК ДЕЙСТВИЯ ЗАЯВКИ, ДО"></Column>
+        <Column name = "director_of_company" type = "text" display_name = "РУКОВОДИТЕЛЬ ПРЕДПРИЯТИЯ (должность, Ф.И.О.)"></Column>
+        <Column name = "executive_officer" type = "text" display_name = "ОТВЕТСТВЕННЫЙ ИСПОЛНИТЕЛЬ (должность, Ф.И.О.)"></Column>
+        <Column name = "phone_numbers" type = "text" display_name = "Телефоны"></Column>
+        <Column name = "telefax" type = "text" display_name = "Телефакс"></Column>
+        <Column name = "Email" type = "text" display_name = "E-mail"></Column>
+        <Column name = "site" type = "text" display_name = "Сайт"></Column>
+        <Column name = "number_of_answers" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Benzin_order" >
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "local_id" type="integer" display_name = ""></Column>
+        <Column name = "company" type = "text" display_name = "Компания"></Column>
+        <Column name = "kind_of_fuel" type = "text" display_name = "Вид топлива"></Column>
+        <Column name = "volume_litres" type = "text" display_name = "Количество (л)"></Column>
+        <Column name = "name_surname" type = "text" display_name = "ФИО"></Column>
+        <Column name = "phone_number" type = "text" display_name = "Телефон"></Column>
+        <Column name = "Email" type = "email" display_name = "e-mail"></Column>
+        <Column name = "number_of_answers" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "My_orders">
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "type" type="text" display_name = ""></Column>
+        <Column name = "local_id" type="integer" display_name = ""></Column>
+        <Column name = "date" type = "integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Answers">
+        <Column name = "global_id" type="integer" display_name = ""></Column>
+        <Column name = "price" type="text" display_name = "Цена"></Column>
+        <Column name = "volume" type="text" display_name = "Объем"></Column>
+        <Column name = "date_of_end" type="integer" display_name = "Дата окончания"></Column>
+        <Column name = "comment" type="text" display_name = "Комментарий"></Column>
+        <Column name = "file" type="blob" display_name = ""></Column>
+        <Column name = "type" type = "text" display_name = ""></Column>
+        <Column name = "date" type = "integer" display_name = ""></Column>
+        <Column name = "answer_id" type="integer" display_name = ""></Column>
+    </Table>
+    <Table name = "Profile">
+        <Column name = "name" type="text" display_name = "Имя"></Column>
+        <Column name = "surname" type="text" display_name = "Фамилия"></Column>
+        <Column name = "login" type = "text" display_name = "Логин"></Column>
+        <Column name = "password" type="text" display_name = "Пароль"></Column>
+        <Column name = "phones" type="text" display_name = "Номер телефона"></Column>
+    </Table>
+    <Table name = "Company_Profile">
+        <Column name = "login" type = "text" display_name = "Логин"></Column>
+        <Column name = "company_id" type = "integer" display_name = ""></Column>
+        <Column name = "name" type = "text" display_name = "Имя компании"></Column>
+        <Column name = "phone" type = "text" display_name = "Телефон компании"></Column>
+        <Column name = "sector" type="text" display_name = "Отрасль"></Column>
+    </Table>
+
+    <Table name = "News" idName = "novel_id">
+        <Column name = "novel_id" type="integer" display_name = ""></Column>
+        <Column name = "title" type="text" display_name = ""></Column>
+        <Column name = "date" type="text" display_name = ""></Column>
+        <Column name = "text" type="text" display_name = ""></Column>
+    </Table>
+    <Table name = "News_Photos" idName="novel_id">
+        <Column name = "novel_id" type="integer" display_name = ""></Column>
+        <Column name = "body_photo" type = "blob" display_name = ""></Column>
+    </Table>
+    <Table name = "Indexes" idName = "index_id">
+        <Column name = "index_name" type="text" display_name = ""></Column>
+        <Column name = "date" type="integer" display_name = ""></Column>
+        <Column name = "value" type="real" display_name = ""></Column>
+    </Table>
+</Database>

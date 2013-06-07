@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Registration>
+    <Profile name = "user">
+        <Field name = "Имя" type = "text"></Field>
+        <Field name = "Фамилия" type = "text"></Field>
+        <Field name = "Логин" type = "text"></Field>
+        <Field name = "Пароль" type = "password"></Field>
+        <Field name = "Номер телефона" type = "text"></Field>
+    </Profile>
+    <Profile name = "company">
+        <Field name = "Логин" type = "text"></Field>
+        <Field name = "Имя компании" type = "text"></Field>
+        <Field name = "Отрасль" type = "spinner"></Field>
+        <Field name = "Телефон компании" type = "text"></Field>
+    </Profile>
+</Registration>

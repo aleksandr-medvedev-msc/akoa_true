@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<File>
+    <Order name = "Bunkering_order">
+        <Field name = "Наименование судна" type = "text"></Field>
+        <Field name = "Флаг судна" type = "text"></Field>
+        <Field name = "Номер IMO судна" type = "text"></Field>
+        <Field name = "Международный позывной судна" type = "text"></Field>
+        <Field name = "Длина/Ширина/Осадка судна" type = "text"></Field>
+        <Field name = "Порт приписки" type = "text"></Field>
+        <Field name = "Полное наименование судовладельца" type = "text"></Field>
+        <Field name = "Адрес судовладельца и телефон" type = "text"></Field>
+        <Field name = "Полное наименование фрахтователя" type = "text"></Field>
+        <Field name = "Основание фрахтования судна" type = "spinner">
+            <SubField name = "тайм-чартер"></SubField>
+            <SubField name = "бербоут-чартер"></SubField>
+            <SubField name = "иное основание"></SubField>
+        </Field>
+        <Field name = "Адрес фрахтователя и телефон" type = "text"></Field>
+        <Field name = "ФИО капитана судна (полностью)" type = "text"></Field>
+        <Field name = "Время прибытия судна на бункеровку" type = "date"></Field>
+        <Field name = "Место бункеровки" type = "text"></Field>
+        <Field name = "Наименование ГСМ" type = "text"></Field>
+        <Field name = "Количество ГСМ" type = "text"></Field>
+        <Field name = "Согласованная цена ГСМ" type = "text"></Field>
+        <Field name = "Порядок расчетов" type = "text"></Field>
+        <Field name = "Страна назначения" type = "text"></Field>
+        <Field name = "Порт назначения" type = "text"></Field>
+        <Field name = "Контактный телефон" type = "text"></Field>
+        <Field name = "Контактный e-mail" type = "email"></Field>
+        <Field name = "ФИО сотрудника заполнившего заявку" type = "text"></Field>
+
+    </Order>
+    <Order name = "Benzin_order">
+        <Field name ="Компания" type = "text"></Field>
+        <Field name = "Вид топлива" type = "spinner">
+            <SubField name = "дизельное топливо ДТЛ 0,2-62" type = "text"></SubField>
+            <SubField name = "дизельное топливо ДТЗ 0,2-35" type = "text"></SubField>
+            <SubField name = "Бензин А-76(80)" type = "text"></SubField>
+        </Field>
+        <Field name = "Количество (л)" type = "text"></Field>
+        <Field name = "ФИО" type = "text"></Field>
+        <Field name = "Телефон" type = "text"></Field>
+        <Field name = "e-mail" type = "email"></Field>
+    </Order>
+    <Order name = "Tank_order">
+        <Field name = "Вид нефтепродукта" type = "text"></Field>
+        <Field name = "Контактное лицо" type = "text"></Field>
+        <Field name = "Контактная информация" type = "text"></Field>
+        <Field name = "Название НПЗ" type = "text"></Field>
+        <Field name = "Количество" type = "text"></Field>
+        <Field name = "Станция назначения" type = "text"></Field>
+        <Field name = "Сообщение" type = "text"></Field>
+    </Order>
+    <Order name = "Oil_delivery_order">
+        <Field name = "Предприятие" type = "text"></Field>
+        <Field name = "НАИМЕНОВАНИЕ ПРОДУКЦИИ" type = "text"></Field>
+        <Field name = "ОБЪЕМ ПОСТАВКИ (тонн)" type = "text"></Field>
+        <Field name = "ЦЕНА (приемлемая для Вас на дату заполнения заявки)" type = "text"></Field>
+        <Field name = "СТАНЦИЯ НАЗНАЧЕНИЯ" type = "text"></Field>
+        <Field name = "ДОПОЛНИТЕЛЬНЫЕ ТРЕБОВАНИЯ (форма и условия оплаты, качественные характеристики, график поставок)" type = "text"></Field>
+        <Field name = "СРОК ДЕЙСТВИЯ ЗАЯВКИ, ДО" type = "date"></Field>
+        <Field name = "РУКОВОДИТЕЛЬ ПРЕДПРИЯТИЯ (должность, Ф.И.О.)" type = "text"></Field>
+        <Field name = "ОТВЕТСТВЕННЫЙ ИСПОЛНИТЕЛЬ (должность, Ф.И.О.)" type = "text"></Field>
+        <Field name = "Телефоны" type = "text"></Field>
+        <Field name = "Телефакс" type = "text"></Field>
+        <Field name = "E-mail" type = "email"></Field>
+        <Field name = "Сайт" type = "text"></Field>
+    </Order>
+</File>

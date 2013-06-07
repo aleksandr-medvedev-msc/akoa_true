@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:showAsAction="always"
+        android:title="@string/f_subscriptionfragment_submit"
+        android:id="@+id/f_subscriptionfragment_menu_submit"
+        ></item>
+</menu>

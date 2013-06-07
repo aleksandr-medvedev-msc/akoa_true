@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aoka.ru</string>
+    <string name="a_analytics_news_tab">Новости</string>
+    <string name="a_analytics_index_tab">Индексы</string>
+    <string name="a_analytics_graphics_tab">Графики</string>
+    <string name="f_profileeditfragment_menu_confirm">Подтвердить</string>
+    <string name="first_launch_activity_registration_button">Регистрация</string>
+    <string name="first_launch_activity_demo_button">Демо-режим</string>
+    <string name="first_launch_activity_authorization">Авторизация</string>
+    <string name="a_authorization_user">Введите имя пользователя</string>
+    <string name="a_authorization_password">Введите пароль</string>
+    <string name="a_authorization_confirm_button">Вход</string>
+    <string name="a_authorization_wrong_login_or_password">Вы ввели неверный логин или пароль</string>
+    <string name="a_registration_button">Регистрация</string>
+    <string name="a_registration_wrong_fill">Вы неправильно заполнили поле </string>
+    <string name="a_registration_busy_login">Этот логин уже занят!</string>
+    <string name="a_home_orders_fragment">Заявки</string>
+    <string name="a_home_myanswers_fragment">Мои ответы</string>
+    <string name="a_home_myorders_fragment">Мои заявки</string>
+    <string name="f_orderfragment_button">Ответить</string>
+    <string name="f_answerfragment_datebutton">Выбрать дату</string>
+    <string name="f_answerfragment_filebutton">Прикрепить файл</string>
+    <string name="location">Путь</string>
+    <string name="cant_read_folder">нельзя открыть директорию!</string>
+    <string name="nnew">Новый</string>
+    <string name="select">Выбрать</string>
+    <string name="file_name">Имя файла:</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Сохранить</string>
+    <string name="no_data">Нет данных</string>
+    <string name="f_answerfragment_sendbutton">Отправить ответ</string>
+    <string name="f_myorders_neworder">Новая заявка</string>
+    <string name="f_neworderfragment_menu_sendbutton">Отправить заявку</string>
+    <string name="a_home_menu_profile">Профиль</string>
+    <string name="a_home_menu_analytics">Аналитика</string>
+    <string name="f_orderfragment_myorders_menu_edit">Редактировать</string>
+    <string name="f_profilefragment_menu_editprofile">Редактировать профиль</string>
+    <string name="f_subscriptionfragment_header">Выберите типы заявок</string>
+    <string name="f_subscriptionfragment_empty">Нет данных</string>
+    <string name="f_subscriptionfragment_submit">Подписаться</string>
+    <string name="f_indexfragment_menu_timeframe_title">Выбрать Timeframe</string>
+    <string-array name="orders_russian_names">
+        <item>Заявка на бункеровку</item>
+        <item>Заказ жд. цистерны</item>
+        <item>Заявка на поставку нефтепродуктов</item>
+        <item>Заказ бензовоза</item>
+    </string-array>
+    <string-array name="timeframes">
+        <item>За последнюю неделю</item>
+        <item>За последний месяц</item>
+        <item>За последний год</item>
+    </string-array>
+</resources>

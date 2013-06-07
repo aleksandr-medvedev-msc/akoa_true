@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Indexes>
+    <Date date = "1361165353">                        <!-- Дата в Unix формате!-->
+        <Index index_name = "MMVB" value = "1000"></Index>
+        <Index index_name = "RTS" value = "1000"></Index>
+    </Date>
+    <Date date = "1361078953">
+        <Index index_name = "MMVB" value = "1200"></Index>
+        <Index index_name = "RTS" value = "1100"></Index>
+    </Date>
+    <Date date = "1360992553">
+        <Index index_name = "MMVB" value = "1100"></Index>
+        <Index index_name = "RTS" value = "1200"></Index>
+    </Date>
+    <Date date = "1360906153">
+        <Index index_name = "MMVB" value = "1050"></Index>
+        <Index index_name = "RTS" value = "1250"></Index>
+    </Date>
+    <Date date = "1360819753">
+        <Index index_name = "MMVB" value = "1000"></Index>
+        <Index index_name = "RTS" value = "1150"></Index>
+    </Date>
+    <Date date = "1360733353">
+        <Index index_name = "MMVB" value = "1080"></Index>
+        <Index index_name = "RTS" value = "1220"></Index>
+    </Date>
+    <Date date = "1360646953">
+        <Index index_name = "MMVB" value = "1130"></Index>
+        <Index index_name = "RTS" value = "1290"></Index>
+    </Date>
+</Indexes>

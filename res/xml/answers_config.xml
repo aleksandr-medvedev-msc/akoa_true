@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+    <Column display_name = "Цена" name = "price" type="text"></Column>
+    <Column display_name = "Объем" name = "volume" type="text"></Column>
+    <Column display_name = "Дата" name = "date" type="integer"></Column>
+    <Column display_name = "Комментарий" name = "comment" type="text"></Column>
+</Answer>

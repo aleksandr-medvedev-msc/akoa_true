@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android-support-v4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/Windows.old.000/Documents and Settings/ag3r/AppData/Local/Android/android-sdk/sources/android-15" />
+    </SOURCES>
+  </library>
+</component>
